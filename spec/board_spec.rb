@@ -2,7 +2,7 @@ require 'rspec'
 require_relative '../lib/board'
 
 describe Board do
-  subject(:board) { described_class.new}
+  subject(:board) { described_class.new }
 
   describe '#mark_cell' do
     it 'mark cell value [index]' do

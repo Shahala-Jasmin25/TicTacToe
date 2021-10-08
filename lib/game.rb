@@ -5,7 +5,7 @@ require_relative 'player.rb'
 # Class comparising all game methods and attributes
 class Game
   include Display
-  attr_accessor :first_player, :second_player
+  attr_accessor :first_player, :second_player, :current_player
 
   def initialize
     @board = Board.new
