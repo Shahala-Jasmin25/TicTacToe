@@ -26,10 +26,6 @@ class Board
     HEREDOC
   end
 
-  def set_cell_value(value, number)
-    @cells[number] = value
-  end
-
   def mark_cell(number, symbol)
     @cells[number - 1] = symbol
   end
